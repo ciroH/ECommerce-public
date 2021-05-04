@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+	background-color: #888A85;	
+	color: black;
+	margin: auto;
+}
+.logo{
+	position: absolute;
+	left: 50%;
+	top: 5px;
+	margin: 0 auto;
+}
+.ProductTable, th{
+
+	font-size: 5;
+}
+td{
+	border: 2px solid black;
+
+}
+.viewImage{
+	vertical-align: middle;
+}

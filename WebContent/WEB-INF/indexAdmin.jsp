@@ -34,6 +34,9 @@
 			<input name="option" type="hidden" value="">
 			<a type="submit"></a>
 		</form>
+		<form action="LogOut" method="post">
+		<button type="submit">Close Session</button>
+		</form>
 <!-- 	<br>
 	-ver el index
 	-productos (submenú para alta,baja,consulta,modificación)(o hacer simplemente una consulta y presentar las opciones de alta, baja, modificacion y filtrado dentro de la propia pagina de la tabla)

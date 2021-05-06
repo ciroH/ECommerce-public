@@ -9,7 +9,7 @@
 <% String userPic = ((User)session.getAttribute("user")).getUserPic(); %>
 </head>
 <body>
-	<h1>
+<!-- 	<h1>
 		Change Profile Picture:
 	</h1>
 	<img src="<%= "../"+userPic %>">
@@ -17,5 +17,9 @@
 		<input name="inputPic" type="file" accept=".png">
 		<button type="submit"> Update </button>
 	</form>
+-->
+		<form action="LogOut" method="post">
+		<button type="submit">Close Session</button>
+		</form>
 </body>
 </html>
